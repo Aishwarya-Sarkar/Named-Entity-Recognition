@@ -1,1 +1,4 @@
 # Named-Entity-Recognition
+
+This project is part of the UT Austin MSBA MIS 285N Introduction to Deep Learning. 
+In organizations like the United Nations, there are specific names and terms used to identify entities within the domain. These include committees, topics, countries, and cultural groups, among others. However, manually identifying and naming each important entity in a document is not practical due to their sheer number and contextual variations. Therefore, Named Entity Recognition (NER) is used to automatically identify and predict these entities. In this project, we have used the Hugging Face library to fine-tune the model on a new dataset to achieve better results on a domain-specific NER task. The goal is to identify and extract United Nations named entities in transcripts of meetings of the General Assembly using key phrases like “the general assembly,” “second fifth committee,”  and others in a consistent and automated manner.
